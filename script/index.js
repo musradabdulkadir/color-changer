@@ -12,7 +12,29 @@ btnRed.addEventListener("click", function(){
     para.innerText= "Current Color: Red"
 })
 
+btnGreen.addEventListener("click", function(){
+    container.style.backgroundColor = "green"
+    para.style.color = "White"
+    para.innerText= "Current Color: Green"
+})
 
+btnBlue.addEventListener("click", function(){
+    container.style.backgroundColor = "blue"
+    para.style.color = "White"
+    para.innerText= "Curent Color: Blue"
+})
+
+btnYellow.addEventListener("click", function(){
+    container.style.backgroundColor = "yellow"
+    para.style.color = "Black"
+    para.innerText= "Current Color: Yellow"
+})
+
+btnReset.addEventListener("click", function(){
+    container.style.backgroundColor = "white"
+    para.style.color = "Black"
+    para.innerText= "Current Color: White"
+})
 
 
 
